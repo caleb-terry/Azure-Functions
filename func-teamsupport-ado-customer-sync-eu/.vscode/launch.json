@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Automation/Setup/CoreAdmin/Encrypt Password/Encrypt Password/bin/Debug/net6.0/Encrypt Password.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Automation/Setup/CoreAdmin/Encrypt Password/Encrypt Password",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
+      "name": "Attach to PowerShell Functions",
+      "type": "PowerShell",
+      "request": "attach",
+      "customPipeName": "AzureFunctionsPSWorker",
+      "runspaceId": 1,
+      "preLaunchTask": "func: host start"
+    }
+  ]
+}

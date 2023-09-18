@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/Automation/Setup/CoreAdmin/Encrypt Password/Encrypt Password/Encrypt Password.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "publish",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "publish",
+        "${workspaceFolder}/Automation/Setup/CoreAdmin/Encrypt Password/Encrypt Password/Encrypt Password.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "watch",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "watch",
+        "run",
+        "--project",
+        "${workspaceFolder}/Automation/Setup/CoreAdmin/Encrypt Password/Encrypt Password/Encrypt Password.csproj"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "type": "func",
+      "label": "func: host start",
+      "command": "host start",
+      "problemMatcher": "$func-powershell-watch",
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/Azure\\func-teamsupport-ado-customer-sync-eu"
+      }
+    }
+  ]
+}

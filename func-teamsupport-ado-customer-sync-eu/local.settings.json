@@ -1,0 +1,29 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "<Your Azure File Storage Connection String>",
+    "WEBSITE_SITE_NAME": "<Your Azure Function App Name>",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "WEBSITE_AUTH_AUTO_AAD": "False",
+    "AzureWebJobsStorage": "<Your Azure Web Jobs Storage>",
+    "ScmType": "None",
+    "WEBSITE_CONTENTSHARE": "<Your Azure File Storage Name>",
+    "FUNCTIONS_RUNTIME_SCALE_MONITORING_ENABLED": "0",
+    "WEBSITE_AUTH_LOGOUT_PATH": "/.auth/logout",
+    "WEBSITE_SLOT_NAME": "Production",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "FUNCTIONS_WORKER_RUNTIME_VERSION": "7.2",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "<Your Application Insights Instrumentation Key>",
+    "AZURE_DEVOPS_BASE_URL": "https://dev.azure.com/<Your Azure DevOps Organization Name>/",
+    "AZURE_DEVOPS_PICKLIST_FIELD_NAME": "Customer",
+    "AZURE_DEVOPS_PAT": "<Your Azure DevOps PAT>",
+    "DAYS_AGO": "2",
+    "$TEAMSUPPORT_BASE_URL": "https://app.<Your Region>.teamsupport.com/",
+    "TEAMSUPPORT_API_KEY": "<Your TeamSupport API Key>",
+    "TEAMSUPPORT_ORG_ID": "<Your Teamsupport Organization ID>",
+    "WEBSITE_ENABLE_SYNC_UPDATE_SITE": "true",
+    "WEBSITE_RUN_FROM_PACKAGE": "1",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=a5b70d98-2de4-41a7-946a-4ee834968490;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/"
+  }
+}
